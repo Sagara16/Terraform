@@ -22,8 +22,8 @@ stages:
     steps:
     - task: Docker@2
       inputs:
-        containerRegistry: 'Binarythistle Docker Hub'
-        repository: 'binarythistle/weatherapi'
+        containerRegistry: 'sagar161994 Docker Hub'
+        repository: 'Sagara16/Terraform'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: |
